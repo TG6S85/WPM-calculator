@@ -36,7 +36,7 @@ int main() {
     int linenumb; // line number
     ifstream inFile; // file containing 300 most common words
 
-    inFile.open("prompt.txt");
+    inFile.open("wordlist.txt");
     int x = 0;
     // Loop to add all of the words from the file to the vector
     while(!inFile.eof()){
